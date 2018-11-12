@@ -8,7 +8,7 @@ class App extends Component {
   state = {
     lat: 29.8937951,
     lon: -81.3098036,
-    zoom: 16,
+    zoom: 14,
     all: locations
   };
 
@@ -20,7 +20,7 @@ class App extends Component {
         </div>
         <MapDisplay
           lat={this.state.lat}
-          long={this.state.lon}
+          lon={this.state.lon}
           zoom={this.state.zoom}
           locations={this.state.all}/>
       </div>
