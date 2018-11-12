@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Back 40 Urban Cafe",
+    "street": "40 S Dixie Hwy",
+    "city": "St. Augustine",
+    "state": "FL",
+    "zip": "32084",
+    "url": "https://www.back40cafe.com/",
+    "pos": {"lat": 29.884617679231095, "lng": -81.32743621424152}
+  },
+  {
+    "name": "The Floridian",
+    "street": "72 Spanish St",
+    "city": "St. Augustine",
+    "state": "FL",
+    "zip": "32084",
+    "url": "http://www.thefloridianstaug.com/",
+    "pos": {"lat": 29.8940375030656, "lng": -81.3137676206161}
+  },
+  {
+    "name": "Maple Street Biscuit Company",
+    "street": "39 Cordova St",
+    "city": "St. Augustine",
+    "state": "FL",
+    "zip": "32084",
+    "url": "https://maplestreetbiscuits.com/",
+    "pos": {"lat": 29.895211900742453, "lng": -81.31466639220447}
+  },
+  {
+    "name": "Everything Bagel",
+    "street": "176 State Road 312",
+    "city": "St. Augustine",
+    "state": "FL",
+    "zip": "32086",
+    "url": "http://everythingbagelstaugustine.com/",
+    "pos": {"lat": 29.8669179, "lng": -81.32162029999999}
+  },
+  {
+    "name": "Gas Full Service Restaurant",
+    "street": "9 Anastasia Blvd",
+    "city": "St. Augustine",
+    "state": "FL",
+    "zip": "32080",
+    "url": "https://gasrestaurant.com/",
+    "pos": {"lat":29.892247060274073, "lng":  -81.30304601385681}
+  }
+]
