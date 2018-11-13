@@ -11,7 +11,6 @@ To get started right away:
 * start the development server with `npm start`
 * access the app at `localhost:3000`
 
-or access the app [here](https://my-st-augustine-map.herokuapp.com/)
 
 ## Create React App
 
