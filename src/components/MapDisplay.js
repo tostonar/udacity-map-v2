@@ -16,6 +16,34 @@ class MapDisplay extends Component {
     activeMarkerProps: null,
     showingInfoWindow: false
   };
+
+  componentWillReceiveProps = (props) => {
+        this.setState({firstDrop: false});
+
+        // Change in the number of locations, so update the markers
+        if (this.state.markers.length !== props.locations.length) {
+            this.closeInfoWindow();
+            this.updateMarkers(props.locations);
+            this.setState({activeMarker: null});
+
+            return;
+        }
+
+        // The selected item is not the same as the active marker, so close the info window
+        if (!props.selectedIndex || (this.state.activeMarker &&
+            (this.state.markers[props.selectedIndex] !== this.state.activeMarker))) {
+            this.closeInfoWindow();
+        }
+
+        // Make sure there's a selected index
+        if (props.selectedIndex === null || typeof(props.selectedIndex) === "undefined") {
+            return;
+        };
+
+        // Treat the marker as clicked
+        this.onMarkerClick(this.state.markerProps[props.selectedIndex], this.state.markers[props.selectedIndex]);
+    }
+
   mapReady = (props, map) => {
     this.setState({map});
     this.updateMarkers(this.props.locations);
@@ -40,6 +68,8 @@ class MapDisplay extends Component {
         this.closeInfoWindow();
 
         // Fetch the FourSquare data for the selected restaurant
+
+        // get info from foursquare that matches restaurant within 100 meters
         let url = `https://api.foursquare.com/v2/venues/search?client_id=${FS_CLIENT}&client_secret=${FS_SECRET}&v=${FS_VERSION}&radius=100&ll=${props.position.lat},${props.position.lng}&llAcc=100`;
         let headers = new Headers();
         let request = new Request(url, {

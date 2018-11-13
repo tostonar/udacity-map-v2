@@ -43,5 +43,41 @@
     "zip": "32080",
     "url": "https://gasrestaurant.com/",
     "pos": {"lat":29.892247060274073, "lng":  -81.30304601385681}
+  },
+  {
+    "name": "Firehouse Subs",
+    "street": "200 CBL Dr. #106",
+    "city": "St. Augustine",
+    "state": "FL",
+    "zip": "32086",
+    "url": "https://www.firehousesubs.com/",
+    "pos": {"lat": 29.865605, "lng": -81.329412}
+  },
+  {
+    "name": "Dos Coffee & Wine",
+    "street": "300 San Marco Ave",
+    "city": "St. Augustine",
+    "state": "FL",
+    "zip": "32084",
+    "url": "https://www.dosbar.com/",
+    "pos": {"lat": 29.920032328172947, "lng": -81.32387789275337}
+  },
+  {
+    "name": "Pizzalley's Pizzeria",
+    "street": "117 Saint George St",
+    "city": "St. Augustine",
+    "state": "FL",
+    "zip": "32084",
+    "url": "https://pizzalleyschiantiroom.com/",
+    "pos": {"lat": 29.894207486044813, "lng": -81.31280199363587}
+  },
+  {
+    "name": "The Present Moment Cafe",
+    "street": "226 W King St",
+    "city": "St. Augustine",
+    "state": "FL",
+    "zip": "32084",
+    "url": "http://www.presentmomentcafe.com/",
+    "pos": {"lat": 29.89077409820699, "lng": -81.32757819733807}
   }
 ]
