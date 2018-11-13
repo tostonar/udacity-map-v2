@@ -9,7 +9,7 @@ To get started right away:
 * download or clone the [repository](https://github.com/tostonar/udacity-map-v2)
 * install all project dependencies with `npm install`
 * start the development server with `npm start`
-* access the app at `localhost:3000`
+* access the app in your browser at `localhost:3000`
 
 
 ## Create React App
