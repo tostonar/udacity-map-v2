@@ -19,7 +19,7 @@ This repository is for a Udacity project. Therefore, we most likely will not acc
 
 ## Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). This app also uses npm modules  [google-maps-react](https://www.npmjs.com/package/google-maps-react) and [material-ui](https://material-ui.com/).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). This app also uses npm modules  [google-maps-react](https://www.npmjs.com/package/google-maps-react) and [material-ui](https://material-ui.com/), as well as [Material Icons](https://www.npmjs.com/package/@material-ui/icons).
 
 ## Learn More
 
