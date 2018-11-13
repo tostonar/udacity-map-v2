@@ -8,7 +8,7 @@ class ListDrawer extends Component {
         query: ""
     }
 
-    
+
     updateQuery = (newQuery) => {
         // Save the new query string in state and pass the string
         // up the call tree
@@ -22,7 +22,7 @@ class ListDrawer extends Component {
                 <Drawer open={this.props.open} onClose={this.props.toggleDrawer}>
                     <div className="list">
                         <input
-                            classNAme="filterEntry"
+                            className="filterEntry"
                             type="text"
                             placeholder="Filter list"
                             name="filter"
