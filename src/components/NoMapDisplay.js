@@ -26,11 +26,11 @@ class NoMapDisplay extends Component {
                     ? (
                         <div>
                             <h1>Error loading map</h1>
-                            < p >
-                                Couldn't load map control due to network error. Try again when you're online.</p>
+                            <p>
+                                Couldn't load map due to network error. Try again when you're online.</p>
                         </div>
                     )
-                    : (<div><h1>Loading</h1></div>)
+                    : (<div><h1>Loading...</h1></div>)
             } </div>
         )
     }
